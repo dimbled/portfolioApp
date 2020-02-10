@@ -1,0 +1,27 @@
+
+
+.outer-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+
+
+
+.project{
+	width: 100px;
+	height: 80px;
+	padding-top: 20px;
+	background-color: orange;
+	text-shadow: 2px 2px 4px;
+	border: 1px solid black;
+	text-align: center;
+	flex-basis: content;
+}
